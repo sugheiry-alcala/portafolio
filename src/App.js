@@ -25,7 +25,6 @@ function App() {
       <Slider />
       <Info />
       <Footer />
-
     </div>
   );
 }

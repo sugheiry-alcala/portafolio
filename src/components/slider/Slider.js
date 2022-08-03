@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
+import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import Slides from "./Slides";
 import "./Slider.css";
@@ -15,18 +15,18 @@ const Slider = () => {
         plugins={['centered', 'arrows', 'infinite']}
         slides={Slides}
         slidesPerPage={3}
-       animationSpeed={200}
-      // center
-      // offset={40}
-      // itemWidth={250}
+        animationSpeed={200}
+        // center
+        // offset={40}
+        // itemWidth={250}
 
-      breakpoints={{
-        960: {
-          slidesPerPage:1,
-          arrows: false,
-          // itemWidth: 190,
-        },
-      }}
+        breakpoints={{
+          960: {
+            slidesPerPage: 1,
+            arrows: false,
+            // itemWidth: 190,
+          },
+        }}
       />
     </div>
   );

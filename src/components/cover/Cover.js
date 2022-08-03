@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cover.css";
 
-const coverVideo = "./assets/video/covervideo.mp4"
+const coverVideo = "./assets/video/cover-video.mp4"
 const cover = () => {
   return (
     <div className="cover-container">
